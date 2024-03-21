@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int conversao(int decimal, int base){
+    int cont=0, i=0;
+    float div; //auxiliar
+    while(decimal/base!=0){
+        decimal=decimal/base;
+        div=decimal/base;
+        cont++;
+    }
+    printf("%d", decimal%base);
+
+    for(i=0; i<cont; i++){
+        printf("%d", (div*8)%8);
+    }
+}
+
+int main(){
+
+    int octal, decimal;
+    int i, j;
+
+    scanf("%d", &decimal);
+    conversao(decimal, 8);
+
+
+    return 0;
+}
