@@ -1,5 +1,3 @@
-#define PI 3.14
-
 float calcula_volume (float R){
     float volume;
     volume = (4*PI*R*R*R)/3;
