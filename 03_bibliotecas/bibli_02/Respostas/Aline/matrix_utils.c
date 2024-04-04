@@ -1,3 +1,5 @@
+#include "matrix_utils.h"
+
 void matrix_read(int rows, int cols, int matrix[rows][cols]){
     int i, j;
     for(i=0; i<cols; i++){
