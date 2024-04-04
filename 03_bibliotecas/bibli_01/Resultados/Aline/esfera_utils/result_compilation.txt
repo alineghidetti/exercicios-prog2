@@ -1,9 +1,0 @@
-esfera_utils.c: In function ‘calcula_volume’:
-esfera_utils.c:3:17: error: ‘PI’ undeclared (first use in this function)
-    3 |     volume = (4*PI*R*R*R)/3;
-      |                 ^~
-esfera_utils.c:3:17: note: each undeclared identifier is reported only once for each function it appears in
-esfera_utils.c: In function ‘calcula_area’:
-esfera_utils.c:9:14: error: ‘PI’ undeclared (first use in this function)
-    9 |     area = 4*PI*R*R;
-      |              ^~

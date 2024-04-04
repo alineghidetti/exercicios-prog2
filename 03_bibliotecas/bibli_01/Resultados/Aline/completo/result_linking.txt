@@ -1,4 +1,0 @@
-/usr/bin/ld: Resultados/Aline/completo/main.o: na função "main":
-main.c:(.text+0x3e): referência não definida para "calcula_area"
-/usr/bin/ld: main.c:(.text+0x70): referência não definida para "calcula_volume"
-collect2: error: ld returned 1 exit status

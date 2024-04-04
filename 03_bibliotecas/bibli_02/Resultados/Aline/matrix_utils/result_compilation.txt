@@ -1,0 +1,18 @@
+matrix_utils.c: In function ‘matrix_add’:
+matrix_utils.c:40:18: warning: unused variable ‘l’ [-Wunused-variable]
+   40 |     int i, j, k, l;
+      |                  ^
+matrix_utils.c:40:15: warning: unused variable ‘k’ [-Wunused-variable]
+   40 |     int i, j, k, l;
+      |               ^
+matrix_utils.c: In function ‘matrix_sub’:
+matrix_utils.c:49:18: warning: unused variable ‘l’ [-Wunused-variable]
+   49 |     int i, j, k, l;
+      |                  ^
+matrix_utils.c:49:15: warning: unused variable ‘k’ [-Wunused-variable]
+   49 |     int i, j, k, l;
+      |               ^
+matrix_utils.c: In function ‘possible_matrix_multiply’:
+matrix_utils.c:37:1: warning: control reaches end of non-void function [-Wreturn-type]
+   37 | }
+      | ^

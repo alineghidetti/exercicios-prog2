@@ -1,1 +1,2 @@
-timeout: falha ao executar o comando “valgrind”: Arquivo ou diretório inexistente
+Area: 181.37
+Volume: 229.73
